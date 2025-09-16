@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 # Titel van de app
 st.title("Fietsherstel-Fietskeuken Kortrijk")
 
