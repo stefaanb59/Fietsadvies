@@ -3,6 +3,10 @@ import pandas as pd
 # Titel van de app
 st.title("Fietsherstel-Fietskeuken Kortrijk")
 
+st.markdown(
+    "Een project van de [Deelfabriek Kortrijk](https://www.kortrijk.be/deelfabriek/fietskeuken)"
+)
+
 # CSV inlezen
 df = pd.read_csv("dataset/fietsproblemen.csv")
 
