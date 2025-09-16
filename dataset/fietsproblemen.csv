@@ -112,28 +112,37 @@ Voordat je begint, is het handig te weten welke onderdelen belangrijk zijn:
 - Controleer kabels op slijtage.
 - Altijd testrit doen voor gebruik.","vbrakes.png","https://www.youtube.com/watch?v=VoorbeeldVBrakes"
 
-"fietsketting vervangen","Fietsketting correct vervangen","**1. Oude ketting verwijderen**
-- Zet de fiets op een standaard of kantel hem om stabiel te houden.
-- Schakel naar kleinste tandwielen voor en achter.
-- Open snelsluiting of gebruik kettingpons om ketting te verwijderen.
-- Verwijder ketting volledig en controleer cassette/voorbladen.
+"ketting vervangen","Ketting vervangen en lengte bepalen (klein-klein methode)","**1. Oude ketting verwijderen**
+- Zet de ketting eerst op het kleinste tandwiel achteraan en het kleinste voorblad.
+- Gebruik een kettingpons of een snelschakel-tang (als je een quick link hebt) om de oude ketting te openen.
+- Haal de ketting helemaal van de fiets. Dit is meteen een goed moment om cassette, voorblad en derailleurwieltjes schoon te maken.
 
 **2. Nieuwe ketting voorbereiden**
-- Leg oude ketting naast nieuwe om juiste lengte te bepalen.
-- Kort ketting indien nodig met kettingpons.
-- Controleer dat snelsluiting aanwezig is.
+- Haal de nieuwe ketting uit de verpakking.
+- Meestal is ze te lang geleverd, zodat je ze zelf op maat kan maken.
+- Leg de ketting alvast door de derailleur:
+  - Door de geleidewieltjes (boven en onder) in de kooi van de achterderailleur.
+  - Let op dat ze correct over en onder de kettinggeleiders loopt (er staat vaak een schema op de derailleur of in de handleiding).
 
-**3. Nieuwe ketting monteren**
-- Plaats op middelste voorblad en achtertandwiel.
-- Leid door voor- en achterderailleur correct.
-- Sluit ketting met snelsluiting of kettingpin.
-- Controleer vrije beweging zonder wrijving.
+**3. Lengte bepalen (klein-klein methode + derailleurpositie)**
 
-**4. Kettingspanning en afstellen**
-- Schakel door alle versnellingen.
-- Controleer soepelheid en overslaan van ketting.
-- Pas derailleur aan indien nodig.
+*A. Fiets met enkel achterderailleur (1x-aandrijving)*
+- Leg de ketting op het kleinste voorblad en het kleinste achtertandwiel.
+- Trek de ketting strak naar achter.
+- Controleer de stand van de achterderailleur:
+  - De derailleurkooi (arm met de twee wieltjes) moet ongeveer op 6:40 uur staan: iets naar achter gekanteld, zodat er nog spanning is, maar niet volledig recht naar beneden of te ver naar voren.
 
+*B. Fiets met voor- én achterderailleur (2x of 3x)*
+- Leg de ketting ook hier op klein-klein.
+- Trek strak en controleer:
+  - De derailleurkooi moet zo plat mogelijk naar achter staan (bijna horizontaal), maar nog steeds met lichte spanning.
+  - Geen doorhang → anders is de ketting te lang.
+
+**4. Schakels inkorten**
+- Kort de ketting in met een kettingpons.
+- Hou rekening met een snelschakel: die voegt een halve schakel toe.
+- Zorg dat de uiteinden passen (binnenschakel tegenover buitenschakel).
+","ketting_vervangen.png","https://www.youtube.com/watch?v=VX3n7_2rPDU","ketting vervangen,ketting lengte bepalen,ketting monteren,fiets ketting vervangen"
 **5. Test en onderhoud**
 - Maak korte testrit.
 - Smeer ketting licht met olie en veeg overtollige olie af.
