@@ -31,10 +31,10 @@ if gekozen_probleem:
     herstelstappen = row.get('herstelstappen', "")
     st.markdown(herstelstappen, unsafe_allow_html=True)
 
-    # Afbeelding
-    afbeelding = row.get('afbeelding', None)
+    afbeelding = row.get("afbeelding", None)
     if afbeelding and pd.notna(afbeelding):
-        st.image(f"images/{afbeelding}", caption="Illustratie", width=300)
+        for img in str(afbeelding).split(";"):
+            st.image(f"images/{img.strip()}", caption="Illustratie", width=300)
 
     # YouTube video
     youtube = row.get('youtube', None)
