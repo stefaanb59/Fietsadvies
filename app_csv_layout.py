@@ -42,7 +42,7 @@ if gekozen_probleem:
             for col, img in zip(cols, imgs):
                 img_path = f"images/{img}"
                 if os.path.exists(img_path):
-                    col.image(img_path, caption="Illustratie", width=300)
+                    col.image(img_path, caption="Illustratie", width=400)
                 else:
                     col.warning(f"Afbeelding niet gevonden: {img_path}")
 
