@@ -31,10 +31,19 @@ if gekozen_probleem:
     herstelstappen = row.get('herstelstappen', "")
     st.markdown(herstelstappen, unsafe_allow_html=True)
 
-    afbeelding = row.get("afbeelding", None)
-    if afbeelding and pd.notna(afbeelding):
-        for img in str(afbeelding).split(";"):
-            st.image(f"images/{img.strip()}", caption="Illustratie", width=300)
+    # Meerdere afbeeldingen naast elkaar
+    afbeeldingen = row.get("afbeelding", "")
+    if pd.notna(afbeeldingen) and afbeeldingen.strip():
+        imgs = [img.strip() for img in str(afbeeldingen).split(";") if img.strip()]
+        if imgs:
+            # Maak kolommen per afbeelding (max 3-4 kolommen op een rij is mooi)
+            cols = st.columns(len(imgs))
+            for col, img in zip(cols, imgs):
+                img_path = f"images/{img}"
+                if os.path.exists(img_path):
+                    col.image(img_path, caption="Illustratie", width=300)
+                else:
+                    col.warning(f"Afbeelding niet gevonden: {img_path}")
 
     # YouTube video
     youtube = row.get('youtube', None)
